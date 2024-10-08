@@ -1,0 +1,17 @@
+.mainApp__layout__container{
+    display: flex;
+    height: 100svh;
+    position: relative;
+}
+
+.outlet__container{
+    flex: 1;
+}
+
+/* USER MENU CSS */
+.userMenu__container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+}

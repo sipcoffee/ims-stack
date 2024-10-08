@@ -1,0 +1,28 @@
+.loginPage__container{
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* LOGIN FIELDS */
+.login__fields{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}

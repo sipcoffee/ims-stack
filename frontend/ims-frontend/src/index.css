@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+:root{
+    --white: #F5F5F5;
+    --orange: #F99417;
+    --lblue: #4D4C7D;
+    --dblue: #363062;
+    --shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    --radius: 10px;
+    --highlight-color: #F99417;
+}

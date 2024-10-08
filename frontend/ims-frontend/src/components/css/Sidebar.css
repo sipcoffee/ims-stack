@@ -1,0 +1,37 @@
+.sidebar__container{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar__container h2{
+    font-size: 24px;
+    padding: 1rem;
+}
+
+.sidebar__links__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebar__links__container a {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    text-decoration: none;
+    gap: 1rem;
+    color: black;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+    border-radius: var(--radius);
+}
+  
+.active {
+    background-color: var(--orange); /* Example active background color */
+    color: blue
+}
